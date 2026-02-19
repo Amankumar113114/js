@@ -11,4 +11,11 @@ console.log(result)
 let fun1=(x)=>{
     console.log(x)
 }
-fun1(34)
+fun1(34);
+
+function sub(d,e){
+    return d-e;
+}
+
+result =sub(5,7);
+console.log(result)
